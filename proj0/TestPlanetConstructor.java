@@ -1,3 +1,5 @@
+import src.Planet;
+
 /**
  *  Tests the Planet constructor.
  */

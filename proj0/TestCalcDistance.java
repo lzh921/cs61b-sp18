@@ -1,3 +1,4 @@
+import src.Planet;
 
 /**
  *  Tests calcDistance
