@@ -16,7 +16,7 @@ public class NBody {
         //System.out.println(number_of_planets);
 
         for (int i = 0; i < number_of_planets; i++) {
-            planets[i] = new Planet();
+            planets[i] = new Planet(0, 0, 0, 0, 0, null);
             planets[i].xxPos = in.readDouble();
             planets[i].yyPos = in.readDouble();
             planets[i].xxVel = in.readDouble();
